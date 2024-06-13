@@ -1,1 +1,7 @@
-# weather-lossPercentage-node-red
+How to run:
+1) node-red in terminal and localhost:1880 -> import the project
+2) Create db and csv file by entering a local path on the computer, and create the tables
+3) Run historical data
+4) Run current weather, forecast, and percentage loss or set them to run automatically.
+5) For dashboard localhost:1880/ui
+6) For RabbitMQ login to localhost:15672 login with username, password and create 3 queue bindings with amq.direct, user1.weather, user2.weather and losspercentage.weather. Execution of timestamps with strict sequence of the json message structure for successful results and correct routingKey to receive the messages.
