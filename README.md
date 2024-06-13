@@ -1,0 +1,1 @@
+# weather-lossPercentage-node-red
